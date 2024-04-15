@@ -1,4 +1,5 @@
 # This is the provider block with the backend code.
+# Once you have created the S3 & the DynamoDB table, then add the "backend" code to the provider block.
 # The state file will be stored in the S3 bucket we've created in backend.tf 
 
 terraform {
