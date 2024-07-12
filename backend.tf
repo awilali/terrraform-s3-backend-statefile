@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "yeylebucket7" {
 # DynamoDB with server side encryption enabled.
 
 resource "aws_dynamodb_table" "statelock" {
-  name = "state-lock3"
+  name = "state-lock"
   billing_mode = "PAY_PER_REQUEST"
   hash_key = "LockID"
 
